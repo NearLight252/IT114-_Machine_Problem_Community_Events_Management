@@ -21,7 +21,7 @@ namespace Community_Volunteers_Management
         {
             // Checks if user is logged in
             bool isLoggedIn = Session["UserID"] != null;
-            string role = isLoggedIn ? Session["UserRole"]?.ToString() : "";
+            string role = isLoggedIn ? Session["Role"]?.ToString() : "";
 
 
             lnkJoinUs.Visible = !isLoggedIn;       
