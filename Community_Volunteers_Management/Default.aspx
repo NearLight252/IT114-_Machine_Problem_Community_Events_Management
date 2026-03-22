@@ -52,7 +52,7 @@
 
 
                 <section class="container my-5">
-            <h2 class="text-center mb-5">Meet Our Volunteers</h2>
+            <h2 class="text-center mb-5">Meet The Community</h2>
 
 
             <div class="row align-items-center mb-5 testimonial-row">
@@ -60,7 +60,7 @@
                     <img src="Images/volunteer1.jpg" class="testimonial-img" />
                 </div>
                 <div class="col-md-8">
-                    <p class="testimonial-text">"Volunteering here has been life-changing! I’ve met amazing people and made lasting memories."</p>
+                    <p class="testimonial-text">"I’ve met amazing people and made lasting memories."</p>
                     <h6 class="text-muted mt-2">– Maria S., Volunteer</h6>
                 </div>
             </div>
