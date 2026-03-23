@@ -50,7 +50,7 @@ CREATE TABLE VolunteerSignups (
  -- Input this as sample data --
 
 
-INSERT INTO Users (FullName, DateOfBirth, Email, PhoneNumber, City, Password, Role)
+INSERT INTO Users (DateOfBirth, Email, PhoneNumber, City, Password, Role, FirstName, LastName)
 VALUES
 ('2000-05-15', 'juan@mail.com', '09171234567', 'Cavite City', 'password123', 'User', 'Juan', 'Dela Cruz'),
 
@@ -67,15 +67,15 @@ VALUES
 
 ('Tree Planting Drive', '2026-04-15', 'Carmona', 'Lantic', 'Plant trees in the community', 'Images/Tree_Planting.jpg', 30, 'Upcoming'),
 
-('Food Donation Drive', '2026-04-20', 'Cavite City', 'Barangay 12', 'Distribute food to families in need', 'Images/Food_Donation.jpg', 40, 'Upcoming');
+('Food Donation Drive', '2026-04-20', 'Cavite City', 'Barangay 12', 'Distribute food to families in need', 'Images/Food_Donation.jpg', 40, 'Upcoming'),
 
-('Blood Donation Drive', '2026-01-20', 'Silang', 'Puting Kahoy', 'Save lives, support the community', 'Images/Food_Donation.jpg', 100, 'Concluded');
+('Blood Donation Drive', '2026-01-20', 'Silang', 'Puting Kahoy', 'Save lives, support the community', 'Images/Food_Donation.jpg', 100, 'Concluded'),
 
-('Community Zumba', '2026-03-29', 'Imus', 'Mendicion 1-A', 'Stay fit, be active, have fun!', 'Images/Food_Donation.jpg', 40, 'On-going');
+('Community Zumba', '2026-03-29', 'Imus', 'Mendicion 1-A', 'Stay fit, be active, have fun!', 'Images/Food_Donation.jpg', 40, 'On-going'),
 
-('Fun Run', '2026-03-29', 'Imus', 'Palico IV', 'Stay fit, stay fresh! Come and join the annual Fun Run!', 'Images/Food_Donation.jpg', 200, 'On-going');
+('Fun Run', '2026-03-29', 'Imus', 'Palico IV', 'Stay fit, stay fresh! Come and join the annual Fun Run!', 'Images/Food_Donation.jpg', 200, 'On-going'),
 
-('Arts And Crafts', '2026-02-10', 'Amadeo', 'Bucal', 'Enjoy a day of creativity with the arts!', 'Images/Food_Donation.jpg', 30, 'Concluded');
+('Arts And Crafts', '2026-02-10', 'Amadeo', 'Bucal', 'Enjoy a day of creativity with the arts!', 'Images/Food_Donation.jpg', 30, 'Concluded'),
 
 ('Pet Owners Meetup', '2026-03-26', 'Magallanes', 'Medina', 'Meet other pet lovers and let your fur-friend have the time of their life.', 'Images/Food_Donation.jpg', 50, 'On-going');
 
